@@ -11,6 +11,7 @@ export default defineNuxtConfig({
   },
   modules: ['@nuxt/ui', '@nuxthub/core'],
   hub:{
-    
+    database: true,
+    cache: true,
   }
 })
