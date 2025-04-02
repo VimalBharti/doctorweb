@@ -1,10 +1,10 @@
 <template>
-  <div class="h-screen main-bg overflow-y-auto w-full">
+  <div class="h-screen main-bg overflow-y-auto">
     <MainNavbar />
 
-    <section class="hero-section h-[90vh] w-full flex items-center justify-center bg-black/50">
-      <div class="grid grid-cols-12 gap-6 max-w-6xl mx-auto">
-        <div class="left col-span-7">
+    <section class="hero-section min-h-screen h-auto w-full flex items-center justify-center bg-black/50 p-5">
+      <div class="flex flex-col md:flex-row gap-6 max-w-6xl mx-auto">
+        <div class="left md:w-[70%]">
           <h2 class="text-5xl text-white font-semibold mb-2">Diet and Health Solutions</h2>
           <h3 class="text-gray-100 text-xl underline">by Dr. XYZ ABCD</h3>
           <ul class="mt-12 space-y-3">
@@ -41,7 +41,7 @@
           </ul>
           <button class="rounded-xl bg-pink-700 text-white px-3 py-2 mt-5 border border-pink-800">Get an Instant Quote</button>
         </div>
-        <div class="right col-span-5">
+        <div class="right md:w-[30%]">
           <div class="bg-white p-5 rounded-xl">
             <h2 class="bg-pink-700 text-white p-2 rounded-lg text-center">Free Consultation</h2>
             <div class="mt-6 space-y-4">
@@ -57,12 +57,12 @@
     </section>
 
     <!-- About Us -->
-    <section class="hero-section w-full bg-white">
-      <div class="grid grid-cols-12 max-w-6xl mx-auto gap-12 py-20">
-        <div class="col-span-4">
-          <img src="https://st3.depositphotos.com/9998432/19099/v/450/depositphotos_190991520-stock-illustration-default-placeholder-doctor-half-length.jpg" alt="" class="shadow-xl rounded-xl border border-gray-100">
+    <section class="hero-section w-full bg-white px-5 py-20">
+      <div class="flex flex-col md:flex-row gap-12 max-w-6xl mx-auto">
+        <div class="md:w-[40%]">
+          <img src="https://st3.depositphotos.com/9998432/19099/v/450/depositphotos_190991520-stock-illustration-default-placeholder-doctor-half-length.jpg" alt="" class="shadow-xl rounded-xl border border-gray-100 h-[40vh] md:h-[50vh] w-full">
         </div>
-        <div class="col-span-8 space-y-4 flex flex-col justify-center">
+        <div class="md:w-[60%] space-y-4 flex flex-col justify-center">
           <h3>ABOUT</h3>
           <h2 class="font-bold text-3xl">DR. XYZ NBCG</h2>
           <p>Dr XYZ is a Celebrity Nutritionist And Wellness Expert. He is the Founder and MD of Diet And Health Solutions.Dr. XYZ clientele includes people from all walks of life including Bollywood stars and beauty queens. He is also an International pageant mentor. Dr. XYZ has been a Mentor as well as a Jury for many prestigious national and international beauty pageants and contests.</p>
@@ -72,9 +72,9 @@
     </section>
 
     <!-- Our Service -->
-    <section class="hero-section w-full bg-zinc-50">
-      <div class="grid grid-cols-2 max-w-6xl mx-auto gap-12 py-20">
-        <div class="space-y-4 flex flex-col justify-center">
+    <section class="hero-section w-full bg-zinc-50 px-5 py-20">
+      <div class="flex flex-col md:flex-row gap-12 max-w-6xl mx-auto">
+        <div class="space-y-4 flex flex-col justify-center w-full">
           <h3 class="uppercase text-3xl">Our Services</h3>
 
           <h3 class="uppercase">Perfect</h3>
@@ -89,7 +89,7 @@
             <button class="rounded-xl bg-blue-800 text-white px-4 py-2 border border-blue-900">+91 9988776655</button>
           </div>
         </div>
-        <div class="">
+        <div class="w-full">
           <img src="https://media.istockphoto.com/id/1372798207/photo/a-woman-with-belly-with-excess-fat-and-toned-slim-stomach-with-abs-before-and-after-losing.jpg?s=612x612&w=0&k=20&c=ll1S4FDYWlH4IePLO_Ep8jst34V4rm324W0vXnm7MbY=" alt="" class="shadow-xl rounded-xl border border-gray-100">
         </div>
       </div>
