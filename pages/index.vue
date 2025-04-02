@@ -2,7 +2,7 @@
   <div class="h-screen main-bg overflow-y-auto w-full">
     <MainNavbar />
 
-    <section class="hero-section h-[90vh] w-full flex items-center justify-center">
+    <section class="hero-section h-[90vh] w-full flex items-center justify-center bg-black/50">
       <div class="grid grid-cols-12 gap-6 max-w-6xl mx-auto">
         <div class="left col-span-7">
           <h2 class="text-5xl text-white font-semibold mb-2">Diet and Health Solutions</h2>
@@ -106,7 +106,7 @@
 
 <style>
 .main-bg{
-  background-image: url('food.jpg');
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvgve0wEUekFR5r0UdyGKOBTPLmLqwui5GFW8o-F7oUzal0F404TnFZB3PXcEpHNOIW74&usqp=CAU');
   background-size: cover;
   background-repeat: no-repeat;
 }
