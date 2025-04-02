@@ -5,7 +5,7 @@
         <div class="flex flex-row items-center gap-5 sm:justify-end sm:mt-0 sm:ps-5">
           <a class="font-medium text-white flex items-center justify-center gap-2" href="#" aria-current="page">
             <Icon name="material-symbols:call" class="w-6 h-6" />
-            91-9988776655
+            91-9988776644
           </a>
         </div>
     </nav>
