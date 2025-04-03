@@ -5,33 +5,39 @@
     <section class="hero-section min-h-screen h-auto w-full flex items-center justify-center bg-black/50 p-5">
       <div class="flex flex-col md:flex-row gap-6 max-w-6xl mx-auto">
         <div class="left md:w-[70%]">
-          <h2 class="text-5xl text-white font-semibold mb-2">Diet and Health Solutions</h2>
-          <h3 class="text-gray-100 text-xl underline">by Dr. XYZ ABCD</h3>
+          <h2 class="text-2xl md:text-5xl text-white font-semibold mb-2">Diet and Health Solutions</h2>
+          <h3 class="text-gray-100 text-md md:text-xl underline">by Dr. XYZ ABCD</h3>
           <ul class="mt-12 space-y-3">
             <li class="flex items-center gap-4">
-              <Icon name="material-symbols:checklist" class="h-12 w-12 text-pink-800" />
+              <button class="w-14 h-12 bg-white rounded-full flex items-center justify-center">
+                <Icon name="material-symbols:checklist" class="h-6 w-6 text-pink-800" />
+              </button>
               <div class="w-full">
                 <h3 class="text-semibold text-white text-xl">Doctor-Supervised Plans</h3>
                 <p class="text-gray-200 text-sm">Every plan is carefully designed and monitored by Dr. Varun Katyal, ensuring your health and safety are prioritized.</p>
               </div>
             </li>
             <li class="flex items-center gap-4">
-              <Icon name="si:dashboard-customize-duotone" class="h-12 w-12 text-pink-800" />
+              <button class="w-14 h-12 bg-white rounded-full flex items-center justify-center">
+                <Icon name="si:dashboard-customize-duotone" class="h-6 w-6 text-pink-800" />
+              </button>
               <div class="w-full">
                 <h3 class="text-semibold text-white text-xl">Customized to Your Needs</h3>
                 <p class="text-gray-200 text-sm">Our diet plans are tailored to suit your unique health requirements, lifestyle, and preferences.</p>
               </div>
             </li>
             <li class="flex items-center gap-4">
-              <Icon name="material-symbols:follow-the-signs" class="h-12 w-12 text-pink-800" />
+              <button class="w-14 h-12 bg-white rounded-full flex items-center justify-center">
+                <Icon name="material-symbols:follow-the-signs" class="h-6 w-6 text-pink-800" />
+              </button>
               <div class="w-full">
                 <h3 class="text-semibold text-white text-xl">Easy to Follow</h3>
                 <p class="text-gray-200 text-sm">We create simple, practical plans that fit seamlessly into your daily routine, making it easier to achieve your goals.</p>
               </div>
             </li>
             <li class="flex items-center gap-4">
-              <button class="w-12 h-12 bg-white rounded-full">
-                <Icon name="carbon:result" class="h-8 w-8 text-pink-800" />
+              <button class="w-14 h-12 bg-white rounded-full flex items-center justify-center">
+                <Icon name="carbon:result" class="h-6 w-6 text-pink-800" />
               </button>
               <div class="w-full">
                 <h3 class="text-semibold text-white text-xl">Fast and Effective Results</h3>
@@ -62,11 +68,11 @@
     <section class="hero-section w-full bg-white px-5 py-20">
       <div class="flex flex-col md:flex-row gap-12 max-w-6xl mx-auto">
         <div class="md:w-[40%]">
-          <img src="https://st3.depositphotos.com/9998432/19099/v/450/depositphotos_190991520-stock-illustration-default-placeholder-doctor-half-length.jpg" alt="" class="shadow-xl rounded-xl border border-gray-100 h-[40vh] md:h-[50vh] w-full">
+          <img src="https://st3.depositphotos.com/9998432/19099/v/450/depositphotos_190991520-stock-illustration-default-placeholder-doctor-half-length.jpg" alt="" class="shadow-xl rounded-xl border border-gray-100 h-[30vh] md:h-[50vh] w-full object-cover">
         </div>
         <div class="md:w-[60%] space-y-4 flex flex-col justify-center">
           <h3>ABOUT</h3>
-          <h2 class="font-bold text-3xl">DR. XYZ NBCG</h2>
+          <h2 class="font-bold text-xl md:text-3xl">DR. XYZ NBCG</h2>
           <p>Dr XYZ is a Celebrity Nutritionist And Wellness Expert. He is the Founder and MD of Diet And Health Solutions.Dr. XYZ clientele includes people from all walks of life including Bollywood stars and beauty queens. He is also an International pageant mentor. Dr. XYZ has been a Mentor as well as a Jury for many prestigious national and international beauty pageants and contests.</p>
           <p><strong>Award:</strong> He has received many prestigious awards, most recent ones being Mahatma Gandhi Excellence Award 2023 and JAI National Award 2024. He anchored a popular TV show called Good Health Show</p>
         </div>
@@ -77,10 +83,10 @@
     <section class="hero-section w-full bg-zinc-50 px-5 py-20">
       <div class="flex flex-col md:flex-row gap-12 max-w-6xl mx-auto">
         <div class="space-y-4 flex flex-col justify-center w-full">
-          <h3 class="uppercase text-3xl">Our Services</h3>
+          <h3 class="uppercase text-xl md:text-3xl">Our Services</h3>
 
           <h3 class="uppercase">Perfect</h3>
-          <h2 class="font-bold text-3xl uppercase">DR. XYZ NBCG</h2>
+          <h2 class="font-bold text-xl md:text-3xl uppercase">DR. XYZ NBCG</h2>
 
           <hr/>
 
@@ -105,11 +111,11 @@
     <section class="hero-section w-full bg-white px-5 py-20">
       <div class="flex flex-col md:flex-row gap-12 max-w-6xl mx-auto">
         <div class="md:w-[40%]">
-          <img src="https://images.unsplash.com/photo-1540073280202-6e5c781befec" alt="" class="shadow-xl rounded-xl border border-gray-100 h-[40vh] md:h-[50vh] w-full">
+          <img src="https://images.unsplash.com/photo-1540073280202-6e5c781befec" alt="" class="shadow-xl rounded-xl border border-gray-100 md:h-[50vh] w-full">
         </div>
         <div class="md:w-[60%] space-y-4 flex flex-col justify-center">
           <h3>GET YOUR</h3>
-          <h2 class="font-bold text-3xl uppercase">Diet Plan for PCOD</h2>
+          <h2 class="font-bold text-xl md:text-3xl uppercase">Diet Plan for PCOD</h2>
           <hr class="my-3 text-gray-300"/>
           <p>Specially designed for individuals managing PCOD, our diet plans address specific health challenges with a focus on effective and sustainable results.</p>
           <p>These customized, easy-to-follow plans help improve hormonal balance, support weight loss, and promote overall wellness, all under the supervision of Dr. XYZ ABGC</p>
@@ -175,7 +181,7 @@
 
         </div>
         <div class="w-full">
-          <img src="https://images.unsplash.com/photo-1624727828489-a1e03b79bba8" alt="" class="shadow-xl rounded-xl border-4 border-white h-[70vh] w-full object-cover">
+          <img src="https://images.unsplash.com/photo-1624727828489-a1e03b79bba8" alt="" class="shadow-xl rounded-xl border-4 border-white md:h-[70vh] w-full object-cover">
         </div>
       </div>
     </section>
