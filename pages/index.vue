@@ -1,22 +1,13 @@
 <template>
-  <div class="h-screen main-bg overflow-y-auto">
+  <div class="h-screen main-bg overflow-y-auto relative">
     <MainNavbar />
 
     <section class="hero-section min-h-screen h-auto w-full flex items-center justify-center bg-black/50 p-5">
       <div class="flex flex-col md:flex-row gap-6 max-w-6xl mx-auto">
         <div class="left md:w-[70%]">
           <h2 class="text-2xl md:text-5xl text-white font-semibold mb-2">Diet and Health Solutions</h2>
-          <h3 class="text-gray-100 text-md md:text-xl underline">by Dr. XYZ ABCD</h3>
+          <h3 class="text-gray-100 text-md md:text-xl underline">By Nancy Arora</h3>
           <ul class="mt-12 space-y-3">
-            <li class="flex items-center gap-4">
-              <button class="w-14 h-12 bg-white rounded-full flex items-center justify-center">
-                <Icon name="material-symbols:checklist" class="h-6 w-6 text-pink-800" />
-              </button>
-              <div class="w-full">
-                <h3 class="text-semibold text-white text-xl">Doctor-Supervised Plans</h3>
-                <p class="text-gray-200 text-sm">Every plan is carefully designed and monitored by Dr. Varun Katyal, ensuring your health and safety are prioritized.</p>
-              </div>
-            </li>
             <li class="flex items-center gap-4">
               <button class="w-14 h-12 bg-white rounded-full flex items-center justify-center">
                 <Icon name="si:dashboard-customize-duotone" class="h-6 w-6 text-pink-800" />
@@ -72,9 +63,8 @@
         </div>
         <div class="md:w-[60%] space-y-4 flex flex-col justify-center">
           <h3>ABOUT</h3>
-          <h2 class="font-bold text-xl md:text-3xl">DR. XYZ NBCG</h2>
-          <p>Dr XYZ is a Celebrity Nutritionist And Wellness Expert. He is the Founder and MD of Diet And Health Solutions.Dr. XYZ clientele includes people from all walks of life including Bollywood stars and beauty queens. He is also an International pageant mentor. Dr. XYZ has been a Mentor as well as a Jury for many prestigious national and international beauty pageants and contests.</p>
-          <p><strong>Award:</strong> He has received many prestigious awards, most recent ones being Mahatma Gandhi Excellence Award 2023 and JAI National Award 2024. He anchored a popular TV show called Good Health Show</p>
+          <h2 class="font-bold text-xl md:text-3xl">DR. Nancy Arora</h2>
+          <p>Dr Nancy Arora is a Celebrity Nutritionist And Wellness Expert. He is the Founder and MD of Diet And Health Solutions. Dr.Nancy Arora clientele includes people from all walks of life including Bollywood stars and beauty queens. He is also an International pageant mentor. Dr. XYZ has been a Mentor as well as a Jury for many prestigious national and international beauty pageants and contests.</p>
         </div>
       </div>
     </section>
@@ -86,7 +76,7 @@
           <h3 class="uppercase text-xl md:text-3xl">Our Services</h3>
 
           <h3 class="uppercase">Perfect</h3>
-          <h2 class="font-bold text-xl md:text-3xl uppercase">DR. XYZ NBCG</h2>
+          <h2 class="font-bold text-xl md:text-3xl uppercase">DR. Nancy Arora</h2>
 
           <hr/>
 
@@ -118,7 +108,7 @@
           <h2 class="font-bold text-xl md:text-3xl uppercase">Diet Plan for PCOD</h2>
           <hr class="my-3 text-gray-300"/>
           <p>Specially designed for individuals managing PCOD, our diet plans address specific health challenges with a focus on effective and sustainable results.</p>
-          <p>These customized, easy-to-follow plans help improve hormonal balance, support weight loss, and promote overall wellness, all under the supervision of Dr. XYZ ABGC</p>
+          <p>These customized, easy-to-follow plans help improve hormonal balance, support weight loss, and promote overall wellness, all under the supervision of Dr. Nancy Arora</p>
           <div class="flex gap-3">
             <button class="rounded-xl bg-green-500 text-white px-4 py-2 border border-green-700">
               <a href="https://wa.me/+918699450087?text=I'm%20interested%20in%20your%20clinical%20service" target="_blank" class="flex items-center gap-1">
@@ -192,11 +182,11 @@
         <h2 class="uppercase text-4xl font-bold text-white text-center">
           <span class="border-b-4 pb-3">Why choose us</span>
         </h2>
-        <div class="grid md:grid-cols-4 gap-6 mt-12">
-          <div class="bg-white rounded-lg p-6 text-center">
+        <div class="grid md:grid-cols-3 gap-6 mt-12">
+          <!-- <div class="bg-white rounded-lg p-6 text-center">
             <h2 class="font-semibold text-pink-700 text-2xl">Doctor-Supervised Expertise</h2>
             <p class="mt-4">All our diet plans are carefully crafted and monitored by Dr. Varun Katyal, ensuring they are safe, effective, and tailored to your unique health needs.</p>
-          </div>
+          </div> -->
           <div class="bg-white rounded-lg p-6 text-center">
             <h2 class="font-semibold text-pink-700 text-2xl">Personalized to Fit Your Lifestyle</h2>
             <p class="mt-4">We design diet plans that align with your daily routine, preferences, and health goals, making it easy to follow and maintain long-term results.</p>
@@ -214,6 +204,12 @@
     </section>
 
     <MainFooter />
+
+    <button class="rounded-l-md bg-green-500 text-white px-3 py-2 fixed right-0 top-[30%] z-40">
+      <a href="https://wa.me/+918699450087?text=I'm%20interested%20in%20your%20clinical%20service" target="_blank" class="flex items-center gap-1">
+        <Icon name="ic:baseline-whatsapp" class="text-white h-8 w-8" />
+      </a>
+    </button>
 
   </div>
 </template>
