@@ -37,7 +37,7 @@
             </li>
           </ul>
           <button class="mt-6">
-            <a href="https://wa.me/+918699450087?text=I'm%20interested%20in%20your%20clinical%20service" target="_blank" class="rounded-xl bg-pink-700 text-white px-3 py-3 mt-5 border border-pink-800">Get an Instant Quote</a>
+            <a href="https://wa.me/+916283727441?text=I'm%20interested%20in%20your%20service" target="_blank" class="rounded-xl bg-pink-700 text-white px-3 py-3 mt-5 border border-pink-800">Get an Instant Quote</a>
           </button>
         </div>
         <div class="right md:w-[30%]">
@@ -56,15 +56,15 @@
     </section>
 
     <!-- About Us -->
-    <section class="hero-section w-full bg-white px-5 py-20">
+    <section class="hero-section w-full bg-white px-5 py-12">
       <div class="flex flex-col md:flex-row gap-12 max-w-6xl mx-auto">
         <div class="md:w-[40%]">
-          <img src="https://st3.depositphotos.com/9998432/19099/v/450/depositphotos_190991520-stock-illustration-default-placeholder-doctor-half-length.jpg" alt="" class="shadow-xl rounded-xl border border-gray-100 h-[30vh] md:h-[50vh] w-full object-cover">
+          <img src="https://zfgzicvpyfrajhvbbtif.supabase.co/storage/v1/object/public/clients//WhatsApp%20Image%202025-04-05%20at%2011.35.22.jpeg" alt="" class="shadow-xl rounded-xl border border-gray-100 h-[40vh] md:h-[75vh] w-full object-cover">
         </div>
         <div class="md:w-[60%] space-y-4 flex flex-col justify-center">
           <h3>ABOUT</h3>
-          <h2 class="font-bold text-xl md:text-3xl">DR. Nancy Arora</h2>
-          <p>Dr Nancy Arora is a Celebrity Nutritionist And Wellness Expert. He is the Founder and MD of Diet And Health Solutions. Dr.Nancy Arora clientele includes people from all walks of life including Bollywood stars and beauty queens. He is also an International pageant mentor. Dr. XYZ has been a Mentor as well as a Jury for many prestigious national and international beauty pageants and contests.</p>
+          <h2 class="font-bold text-xl md:text-3xl">Dt. Nancy Arora</h2>
+          <p>Dt Nancy Arora is a Wellness Expert. Dt. Nancy Arora clientele includes people from all walks of life. She is also an pageant mentor. Dt. Nancy Arora has been a Mentor.</p>
         </div>
       </div>
     </section>
@@ -72,19 +72,19 @@
     <!-- Our Service -->
     <section class="hero-section w-full bg-zinc-50 px-5 py-20">
       <div class="flex flex-col md:flex-row gap-12 max-w-6xl mx-auto">
-        <div class="space-y-4 flex flex-col justify-center w-full">
-          <h3 class="uppercase text-xl md:text-3xl">Our Services</h3>
+        <div class="flex flex-col justify-center w-full">
+          <h3 class="uppercase text-xl md:text-3xl mb-5">Our Services</h3>
 
           <h3 class="uppercase">Perfect</h3>
-          <h2 class="font-bold text-xl md:text-3xl uppercase">DR. Nancy Arora</h2>
+          <h2 class="font-bold text-xl md:text-3xl uppercase text-pink-600">Weight Loss Plan</h2>
 
-          <hr/>
+          <hr class="my-3"/>
 
           <p>Achieve your weight loss goals quickly and effortlessly with our customized weight loss plans. Designed to be easy to follow and doctor-supervised, these plans ensure effective and sustainable results. Whether you're just starting your fitness journey or need help breaking through a plateau, our tailored solutions will help you lose weight and feel your best.</p>
 
-          <div class="flex gap-3">
+          <div class="flex gap-3 mt-5">
             <button class="rounded-xl bg-green-500 text-white px-4 py-2 border border-green-700">
-              <a href="https://wa.me/+918699450087?text=I'm%20interested%20in%20your%20clinical%20service" target="_blank" class="flex items-center gap-1">
+              <a href="https://wa.me/+916283727441?text=I'm%20interested%20in%20your%20service" target="_blank" class="flex items-center gap-1">
                 <Icon name="ic:baseline-whatsapp" class="text-white h-6 w-6" /> WhatsApp
               </a>
             </button>
@@ -108,10 +108,10 @@
           <h2 class="font-bold text-xl md:text-3xl uppercase">Diet Plan for PCOD</h2>
           <hr class="my-3 text-gray-300"/>
           <p>Specially designed for individuals managing PCOD, our diet plans address specific health challenges with a focus on effective and sustainable results.</p>
-          <p>These customized, easy-to-follow plans help improve hormonal balance, support weight loss, and promote overall wellness, all under the supervision of Dr. Nancy Arora</p>
+          <p>These customized, easy-to-follow plans help improve hormonal balance, support weight loss, and promote overall wellness, all under the supervision of Dt. Nancy Arora</p>
           <div class="flex gap-3">
             <button class="rounded-xl bg-green-500 text-white px-4 py-2 border border-green-700">
-              <a href="https://wa.me/+918699450087?text=I'm%20interested%20in%20your%20clinical%20service" target="_blank" class="flex items-center gap-1">
+              <a href="https://wa.me/+916283727441?text=I'm%20interested%20in%20your%20service" target="_blank" class="flex items-center gap-1">
                 <Icon name="ic:baseline-whatsapp" class="text-white h-6 w-6" /> WhatsApp
               </a>
             </button>
@@ -206,7 +206,7 @@
     <MainFooter />
 
     <button class="rounded-l-md bg-green-500 text-white px-3 py-2 fixed right-0 top-[30%] z-40">
-      <a href="https://wa.me/+918699450087?text=I'm%20interested%20in%20your%20clinical%20service" target="_blank" class="flex items-center gap-1">
+      <a href="https://wa.me/+916283727441?text=I'm%20interested%20in%20your%20service" target="_blank" class="flex items-center gap-1">
         <Icon name="ic:baseline-whatsapp" class="text-white h-8 w-8" />
       </a>
     </button>
