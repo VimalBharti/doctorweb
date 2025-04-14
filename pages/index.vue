@@ -6,7 +6,7 @@
       <div class="flex flex-col md:flex-row gap-6 max-w-6xl mx-auto">
         <div class="left md:w-[70%]">
           <h2 class="text-2xl md:text-5xl text-white font-semibold mb-2">Diet and Health Solutions</h2>
-          <h3 class="text-gray-100 text-md md:text-xl underline">By Nancy Arora</h3>
+          <h3 class="text-gray-100 text-md md:text-xl">By Nancy Arora</h3>
           <ul class="mt-12 space-y-3">
             <li class="flex items-center gap-4">
               <button class="w-14 h-12 bg-white rounded-full flex items-center justify-center">
@@ -59,12 +59,12 @@
     <section class="hero-section w-full bg-white px-5 py-12">
       <div class="flex flex-col md:flex-row gap-12 max-w-6xl mx-auto">
         <div class="md:w-[40%]">
-          <img src="https://zfgzicvpyfrajhvbbtif.supabase.co/storage/v1/object/public/clients//WhatsApp%20Image%202025-04-05%20at%2011.35.22.jpeg" alt="" class="shadow-xl rounded-xl border border-gray-100 h-[40vh] md:h-[75vh] w-full object-cover">
+          <img src="https://zfgzicvpyfrajhvbbtif.supabase.co/storage/v1/object/public/clients//WhatsApp%20Image%202025-04-05%20at%2011.35.22.jpeg" alt="" class="shadow-xl rounded-xl border border-gray-100 h-[50vh] w-full object-cover object-top">
         </div>
         <div class="md:w-[60%] space-y-4 flex flex-col justify-center">
           <h3>ABOUT</h3>
           <h2 class="font-bold text-xl md:text-3xl">Dt. Nancy Arora</h2>
-          <p>Dt Nancy Arora is a Wellness Expert. Dt. Nancy Arora clientele includes people from all walks of life. She is also an pageant mentor. Dt. Nancy Arora has been a Mentor.</p>
+          <p>Dt. Nancy Arora is a distinguished Wellness Expert and Dietitian, committed to promoting holistic health and well-being. With a diverse clientele that spans across various walks of life, she has earned a reputation for delivering personalized and sustainable nutrition guidance. In addition to her expertise in dietetics, Dt. Nancy Arora is also a respected pageant mentor, known for preparing individuals to present their best selves with confidence and poise. Her role as a mentor reflects her dedication to empowering others, whether through wellness journeys or personal development. Driven by passion and professionalism, she continues to inspire and transform lives through her knowledge, compassion, and commitment.</p>
         </div>
       </div>
     </section>
